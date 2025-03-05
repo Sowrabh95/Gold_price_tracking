@@ -35,7 +35,7 @@ line, = ax.plot([], [], marker="o", linestyle="-", color="b")
 try:
     while True:
         driver.get(url)
-        time.sleep(3)  # Allow JavaScript content to load
+        time.sleep(random.uniform(8, 15))  # Allow JavaScript content to load
 
         try:
             price_element = WebDriverWait(driver, 10).until(
@@ -67,7 +67,7 @@ try:
         except Exception as e:
             print("Error:", str(e))
 
-        time.sleep(10)
+        time.sleep(random.uniform(8, 15))
 
 except KeyboardInterrupt:
     print("\nScript stopped by user.")
