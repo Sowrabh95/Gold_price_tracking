@@ -1,0 +1,3 @@
+matplotlib
+selenium
+webdriver-manager
