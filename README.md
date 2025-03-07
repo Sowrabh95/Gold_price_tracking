@@ -1,5 +1,5 @@
-# Gold_price_tracking
-Make your investments easier and smarter.
+# DIGITAL Gold_price_tracking
+Make your digital investments easier and smarter.
 The model prints the numerical values and plots the trend as per your frequencies 
 Here are some results
 
